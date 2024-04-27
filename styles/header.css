@@ -1,0 +1,32 @@
+#Logo {
+  width: 15%;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar{
+  background-color: transparent;
+}
+
+.navbar-scrolled {
+  background-color: #b76e79;
+}

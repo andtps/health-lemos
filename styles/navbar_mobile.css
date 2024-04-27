@@ -1,0 +1,18 @@
+<div class="navbar fixed-top p-3">
+<div class="container">
+  <div class="d-flex justify-content-between align-items-center">
+    <a href="#"
+      ><img
+        id="Logo"
+        src="./images/Lemos logo marca d_água branca.png"
+        alt="Lemos Health"
+    /></a>
+    <nav>
+      <ul class="d-flex ">
+        <li><a class="fs-4" href="#">Sobre</a></li>
+        <li><a class="fs-4" href="#servico">Serviços</a></li>
+        <li><a class="fs-4" href="#clientes">Depoimentos</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

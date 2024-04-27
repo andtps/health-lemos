@@ -1,0 +1,145 @@
+@import url(./styles/header.css);
+@import url(./styles/quem_somos.css);
+@import url(./styles/servicos.css);
+@import url(./styles/testemunha.css);
+@import url(./styles/footer.css);
+@import url(./styles/caroulsel.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #b76e7915;
+}
+
+.span__margin {
+  border: solid #4a6f44 2px;
+  border-radius: 30px;
+  display: flex;
+  width: 60%;
+  margin: 0 auto 40px auto;
+}
+
+.span__strong {
+  color: #4a6f44;
+}
+
+h2 {
+  text-align: center;
+  color: #b76e79;
+  font-family: "Trajan Pro", sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Contato links */
+
+.area-1,
+.area-2,
+.area-3 {
+  visibility: hidden;
+}
+
+/*Media Queries*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .SmallScreenAbout {
+    display: block;
+  }
+  .SectionContentAbout {
+    display: none;
+  }
+
+  .titlePC {
+    display: none;
+  }
+
+  .img__about__small img {
+    width: 80%;
+  }
+
+  .MayraIntro {
+    display: flex;
+    gap: 3%;
+  }
+
+  .Mayra__texto_corp__small {
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+
+  .Mayra__texto__small {
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+
+  #Logo {
+    width: 100px;
+  }
+
+  .CardsDepoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .SmallScreenAbout {
+    display: block;
+  }
+  .SectionContentAbout {
+    display: none;
+  }
+
+  .titlePC {
+    display: none;
+  }
+
+  .img__about__small img {
+    width: 80%;
+  }
+
+  .MayraIntro {
+    display: flex;
+    gap: 3%;
+  }
+
+  .Mayra__texto_corp__small {
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+
+  .Mayra__texto__small {
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+
+  #Logo {
+    width: 100px;
+  }
+
+  .CardsDepoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

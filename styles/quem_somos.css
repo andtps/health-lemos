@@ -1,0 +1,34 @@
+.SmallScreenAbout {
+  display: none;
+}
+.MayraAndLemos {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.Mayra__texto_corp {
+  max-width: 50%;
+  font-size: 21px;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.img__about {
+  max-width: 19%;
+}
+
+.img__about img {
+  width: 100%;
+}
+
+.Mayra__texto {
+  width: 73%;
+  display: flex;
+  margin: 1% auto;
+  text-align: justify;
+  font-size: 21px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
