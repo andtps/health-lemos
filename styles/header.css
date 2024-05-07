@@ -23,10 +23,17 @@ header ul li a {
   transition: all 0.5s;
 }
 
-.navbar{
+.navbar {
   background-color: transparent;
 }
 
 .navbar-scrolled {
   background-color: #b76e79;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 }

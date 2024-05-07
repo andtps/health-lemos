@@ -15,10 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #b76e7915;
-}
-
 .span__margin {
   border: solid #4a6f44 2px;
   border-radius: 30px;
@@ -45,8 +41,6 @@ p {
 h3 {
   text-align: center;
 }
-
-/* Contato links */
 
 .area-1,
 .area-2,
