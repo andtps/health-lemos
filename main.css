@@ -54,6 +54,9 @@ h3 {
   .img__about {
     display: none;
   }
+  #DesktopLogo {
+    display: none;
+  }
 
   .Mayra__texto {
     display: none;
@@ -94,6 +97,10 @@ h3 {
 @media (min-width: 768px) and (max-width: 1024px) {
   .SmallScreenAbout {
     display: block;
+  }
+
+  #MobileLogo {
+    display: none;
   }
   .SectionContentAbout {
     display: none;
