@@ -48,12 +48,21 @@ h3 {
   visibility: hidden;
 }
 
+#MobileLogo {
+  display: none;
+}
+
 /*Media Queries*/
 
 @media (min-width: 320px) and (max-width: 767px) {
   .img__about {
     display: none;
   }
+
+  #MobileLogo {
+    display: block;
+  }
+
   #DesktopLogo {
     display: none;
   }
@@ -102,6 +111,7 @@ h3 {
   #MobileLogo {
     display: none;
   }
+
   .SectionContentAbout {
     display: none;
   }
