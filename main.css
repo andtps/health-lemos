@@ -51,6 +51,13 @@ h3 {
 /*Media Queries*/
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .img__about {
+    display: none;
+  }
+
+  .Mayra__texto {
+    display: none;
+  }
   .SmallScreenAbout {
     display: block;
   }
@@ -62,22 +69,12 @@ h3 {
     display: none;
   }
 
-  .img__about__small img {
-    width: 80%;
-  }
-
   .MayraIntro {
     display: flex;
     gap: 3%;
   }
 
   .Mayra__texto_corp__small {
-    text-align: justify;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
-  }
-
-  .Mayra__texto__small {
     text-align: justify;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
