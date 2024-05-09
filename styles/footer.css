@@ -23,8 +23,6 @@ footer {
   height: 100%;
   background-color: #b76e79;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer_logo {
@@ -77,6 +75,15 @@ footer {
 .ImgLinks .SocialImg {
   display: block;
   text-align: center;
+}
+
+.footer__endereço h6 {
+  color: white;
+}
+
+footer h2 {
+  margin-top: 25px;
+  color: white;
 }
 
 /*Media Queries*/
